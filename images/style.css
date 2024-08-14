@@ -1,0 +1,31 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 653px;
+	height: 225px;
+}
+#main {
+	width: 653px;
+	height: 225px;
+	overflow: hidden;
+	background: url(bg.png);
+}
+.list {
+	list-style-type: none;
+}
+.list li {
+	float: left;
+	margin-top: 150px;
+}
+ img:hover {
+    transform: scale(1.1);
+}
+.list li img {
+    transition: all 0.2s linear 0s;
+}  
+.list li img {
+	padding-left:10px;
+	border:0;
+}
